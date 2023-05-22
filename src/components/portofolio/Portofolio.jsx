@@ -1,10 +1,6 @@
 import React from 'react';
 import Pokemon from '../../assets/pokemon.jpg';
 import Calculator from '../../assets/calculator.jpg';
-import Profile1 from '../../assets/profile1.jpg';
-import Profile2 from '../../assets/profile2.jpg';
-import Restaurant from '../../assets/restaurant.jpg';
-import Cakeshop from '../../assets/cakeshop.jpg';
 import Port from '../../assets/portofmokha.jpg';
 
 const Portofolio = () => {
@@ -32,38 +28,6 @@ const Portofolio = () => {
       judul: 'Calculator',
       tech: 'Tech: HTML,CSS & JS',
       img: Calculator,
-    },
-    {
-      id: 4,
-      href: 'https://arispm.github.io/profile/',
-      sc: 'https://github.com/arispm/profile',
-      judul: 'Simple Profile 1',
-      tech: 'Tech: HTML & CSS',
-      img: Profile1,
-    },
-    {
-      id: 5,
-      href: 'https://arispm.github.io/portofoliobs/',
-      sc: 'https://github.com/arispm/portofoliobs',
-      judul: 'Simple Profile 2',
-      tech: 'Tech: Bootstrap',
-      img: Profile2,
-    },
-    {
-      id: 6,
-      href: 'https://restaurant-murah.github.io/restoran/',
-      sc: 'https://github.com/Restaurant-Murah/restoran',
-      judul: 'Restaurant Murah',
-      tech: 'Tech: HTML & CSS',
-      img: Restaurant,
-    },
-    {
-      id: 7,
-      href: 'https://a13-progatehtmlcss.github.io/cake.shop/',
-      sc: 'https://github.com/A13-ProgateHTMLCSS/cake.shop',
-      judul: 'Cake Shop',
-      tech: 'Tech: HTML & CSS',
-      img: Cakeshop,
     },
   ];
 
